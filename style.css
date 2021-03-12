@@ -5,11 +5,11 @@ body {
 #nav {
     display: flex;
     justify-content: flex-end;
+    margin-top: 15px;
 }
 
 #nav a {
     margin-right: 20px;
-    margin-top: 15px;
 }
 
 #nav a.topimage {
@@ -19,18 +19,15 @@ body {
     border-radius: 50%;
 }
 
-.centered {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -100px;
+#logo {
+    justify-content: center;
 }
 
-.logo {
+#middle {
     margin-top: 300px;
 }
 
-.middle {
-    text-align: center;
+#searchbarcontainer {
+    margin-top: 20px;
+    justify-content: center;
 }
